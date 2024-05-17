@@ -22,7 +22,7 @@ public class CopyNPaste {
         searchbox.sendKeys("Samsung");
         Thread.sleep(2000);
         Actions act=new Actions(driver);
- //Select All content
+ //Select All content 
         act.keyDown(Keys.CONTROL).sendKeys("A").keyUp(Keys.CONTROL).build().perform();
         Thread.sleep(2000);
 //copy 

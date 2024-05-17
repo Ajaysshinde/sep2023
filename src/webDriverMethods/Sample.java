@@ -12,6 +12,7 @@ public class Sample {
 				"C:\\Users\\Shri\\eclipse-workspace\\simple.java\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 		Thread.sleep(2000);
+		//this is sample program
 		driver.navigate().to("https://www.facebook.com/");
 		Thread.sleep(2000);
 		driver.navigate().to("https://www.flipkart.com/");
